@@ -91,7 +91,7 @@ void *recv_msg(void *arg)
             printf("\n");
         memset(name_msg,0,sizeof(name_msg));
     }
-
+//
     return NULL;
 }
 
