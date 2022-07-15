@@ -4,7 +4,7 @@
 
 class Database
 {   
-
+//
 public:
     MYSQL *connection = NULL, conn;
     MYSQL_RES *result;
