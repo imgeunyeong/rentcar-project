@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>userinfo</class>
+ <widget class="QDialog" name="userinfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>522</width>
+    <height>371</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>361</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableView::item:hover {
+	
+	color: rgb(238, 238, 236);
+	background-color: rgb(85, 87, 83);
+}
+QTableWidget{
+background-color:#fff; border:2px solid #000;  border-radius:5px;
+}</string>
+   </property>
+   <property name="rowCount">
+    <number>0</number>
+   </property>
+   <column>
+    <property name="text">
+     <string>Id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Pw</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Grade</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>50</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover{
+background-color: rgb(85, 87, 83);
+color:white;
+border-radius:5px;
+}
+QPushButton{
+	font: 57 11pt &quot;Ubuntu&quot;;
+	font:bold;
+background-color:#fff; border:2px solid #000;  border-radius:15px;
+}</string>
+   </property>
+   <property name="text">
+    <string>조회</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>165</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover{
+background-color: rgb(85, 87, 83);
+color:white;
+border-radius:5px;
+}
+QPushButton{
+	font: 57 11pt &quot;Ubuntu&quot;;
+	font:bold;
+background-color:#fff; border:2px solid #000;  border-radius:15px;
+}</string>
+   </property>
+   <property name="text">
+    <string>회원 수정</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>280</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover{
+background-color: rgb(85, 87, 83);
+color:white;
+border-radius:5px;
+}
+QPushButton{
+	font: 57 11pt &quot;Ubuntu&quot;;
+	font:bold;
+background-color:#fff; border:2px solid #000;  border-radius:15px;
+}</string>
+   </property>
+   <property name="text">
+    <string>회원삭제</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>7</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-weight:600;
+font: 57 15pt &quot;Ubuntu&quot;;
+font:bold;</string>
+   </property>
+   <property name="text">
+    <string>유저 정보</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
